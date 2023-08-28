@@ -48,11 +48,8 @@ function getUsers(){
     }
 }
 
-
-window.onload = function(){
-    getUsers()
-}
 function clicked(id){
     getPosts(id)
 }
 getPosts(1)
+getUsers()
